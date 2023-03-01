@@ -11,6 +11,7 @@ Create a `Menu` class .
 **2.** Give `Menu` a constructor with the five parameters `self`, `name`, `items`, `start_time`, and `end_time`.
 
 3. Let’s create our first menu: `brunch`. Brunch is served from 11am to 4pm. The following items are sold during brunch:
+
 ```
 {
   'pancakes': 7.50, 'waffles': 9.00, 'burger': 11.00, 'home fries': 4.50, 'coffee': 1.50, 'espresso': 3.00, 'tea': 1.00, 'mimosa': 10.50, 'orange juice': 3.50
@@ -18,6 +19,7 @@ Create a `Menu` class .
 ```
 
 **4.** Let’s create our second menu item `early_bird`. Early-bird Dinners are served from 3pm to 6pm. The following items are available during the early-bird menu:
+
 ```
 {
   'salumeria plate': 8.00, 'salad and breadsticks (serves 2, no refills)': 14.00, 'pizza with quattro formaggi': 9.00, 'duck ragu': 17.50, 'mushroom ravioli (vegan)': 13.50, 'coffee': 1.50, 'espresso': 3.00,
