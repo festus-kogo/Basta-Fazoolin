@@ -26,3 +26,19 @@ Create a `Menu` class .
 }
 ```
 
+**5.** Let’s create our third menu, `dinner`. Dinner is served from 5pm to 11pm. The following items are available for dinner:
+
+```
+{
+  'crostini with eggplant caponata': 13.00, 'caesar salad': 16.00, 'pizza with quattro formaggi': 11.00, 'duck ragu': 19.50, 'mushroom ravioli (vegan)': 13.50, 'coffee': 2.00, 'espresso': 3.00,
+}
+```
+
+**6.** And let’s create our last menu, `kids`. The kids menu is available from 11am until 9pm. The following items are available on the kids menu.
+
+```
+{
+  'chicken nuggets': 6.50, 'fusilli with wild mushrooms': 12.00, 'apple juice': 3.00
+}
+```
+
