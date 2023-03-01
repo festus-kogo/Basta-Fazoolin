@@ -4,6 +4,6 @@ You’ve started a position as the lead programmer for the family-style Italian 
 
 ### Making the Menus
 
-1. At *Basta Fazoolin’ with my Heart* our motto is simple: when you’re here with family, that’s great! We have four different menus: brunch, early-bird, dinner, and kids.
+**1.** At *Basta Fazoolin’ with my Heart* our motto is simple: when you’re here with family, that’s great! We have four different menus: brunch, early-bird, dinner, and kids.
 
 Create a `Menu` class .
