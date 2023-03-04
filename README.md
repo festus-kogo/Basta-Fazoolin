@@ -56,4 +56,43 @@ Have `calculate_bill` return the total price of a purchase consisting of all the
 
 ### Creating the Franchises
 
+**12.** *Basta Fazoolin’ with my Heart* has seen tremendous success with the family market, which is fantastic because when you’re at *Basta Fazoolin’ with my Heart* with family, that’s great!
 
+We’ve decided to create more than one restaurant to offer our fantastic menus, services, and ambience around the country.
+
+First, let’s create a `Franchise` class.
+
+**13.** Give the `Franchise` class a constructor. Take in an `address`, and assign it to `self.address`. Also take in a list of `menus` and assign it to `self.menus`.
+
+**14.** Let’s create our first two franchises! Our flagship store is located at `"1232 West End Road"` and our new installment is located at `"12 East Mulberry Street"`. Pass in all four menus along with these addresses to define `flagship_store` and `new_installment`.
+
+**15.** Give our `Franchise`s a string representation so that we’ll be able to tell them apart. If we print out a `Franchise` it should tell us the address of the restaurant.
+
+**16.** Let’s tell our customers what they can order! Give `Franchise` an `.available_menus()` method that takes in a `time` parameter and returns a list of the `Menu` objects that are available at that time.
+
+**17.** Let’s test out our `.available_menus()` method! Call it with 12 noon as an argument and print out the results.
+
+**18.** Let’s do another test! See what is printed if we call `.available_menus()` with 5pm as an argument and print out the results.
+
+**19.** Since we’ve been so successful building out a branded chain of restaurants, we’ve decided to diversify. We’re going to create a restaurant that sells arepas!
+
+First let’s define a `Business` class.
+
+**20.** Give `Business` a constructor. A `Business` needs a `name` and a list of `franchises`.
+
+**21.** Let’s create our first `Business`. The name is `"Basta Fazoolin' with my Heart"` and the two franchises are `flagship_store` and `new_installment`.
+
+**22.** Before we create our new business, we’ll need a `Franchise` and before our `Franchise` we’ll need a menu. The items for our Take *a’ Arepa* available from 10am until 8pm are the following:
+
+```
+{
+  'arepa pabellon': 7.00, 'pernil arepa': 8.50, 'guayanes arepa': 8.00, 'jamon arepa': 7.50
+}
+```
+Save this to a variable called `arepas_menu`.
+
+**23.** Next let’s create our first Take *a’ Arepa* franchise! Our new restaurant is located at `"189 Fitzgerald Avenue"`. Save the `Franchise` object to a variable called `arepas_place`.
+
+**24.** Now let’s make our new `Business`! The business is called `"Take a' Arepa"`!
+
+**25.** Congrats! You created a system of classes that help structure your code and perform all business requirements you need. Whenever we need a new feature we’ll have the well-organized code required to make developing and shipping it easy.
