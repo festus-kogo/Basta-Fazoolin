@@ -42,3 +42,18 @@ Create a `Menu` class .
 }
 ```
 
+**7.** Give our `Menu` class a string representation method that will tell you the `name` of the menu. Also, indicate in this representation when the menu is available.
+
+**8.** Try out our string representation. If you call `print(brunch)` it should print out something like the following:
+
+**9.** Give `Menu` a method `.calculate_bill()` that has two parameters: `self`, and `purchased_items`, a list of the names of purchased items.
+
+Have `calculate_bill` return the total price of a purchase consisting of all the items in `purchased_items`.
+
+**10.** Test out `Menu.calculate_bill()`. We have a breakfast order for one order of pancakes, one order of home fries, and one coffee. Pass that into `brunch.calculate_bill()` and print out the price.
+
+**11.** What about an early-bird purchase? Our last guests ordered the salumeria plate and the vegan mushroom ravioli. Calculate the bill with `.calculate_bill()`.
+
+### Creating the Franchises
+
+
